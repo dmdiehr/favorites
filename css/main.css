@@ -1,0 +1,36 @@
+header img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Fontdiner Swanky", cursive;
+}
+
+#first-list {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+#first-list p {
+  padding-top: 20px;
+  font-size: 1.1em;
+}
+
+.left {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.right {
+  text-align: right;
+  padding-right: 1em;
+}
+
+#first-button {
+  margin-top: 3em;
+}
