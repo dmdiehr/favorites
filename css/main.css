@@ -1,3 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+#form-section {
+  display: none;
+}
+#display-section {
+  max-width: 500px;
+  margin: auto;
+}
+body {
+  background-image: url(images/music.jpg);
+}
 header img {
   display: block;
   margin: auto;
@@ -33,4 +47,9 @@ body {
 
 #first-button {
   margin-top: 3em;
+}
+
+#form-view {
+  max-width: 95%;
+  margin: auto;
 }

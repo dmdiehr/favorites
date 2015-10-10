@@ -5,7 +5,7 @@
 
 ## Description
 
-This is an "favorites" webpage. It's purpose is to demonstrate my ability to use JavaScript and jQuery to collect form information and to display that information by showing/hiding elements on the page.
+This is a "favorites" webpage. It's purpose is to demonstrate my ability to use JavaScript and jQuery to collect form information and to display that information by showing/hiding elements on the page.
 
 ## Setup
 
