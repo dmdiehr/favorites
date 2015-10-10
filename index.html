@@ -28,6 +28,7 @@
           <button type="button" id="first-button" class="btn btn-primary btn-lg btn-block">Make Your Own List</button>
       </div>
       <div id="made-list">
+        <ul></ul>
       </div>
     </div>
 <!-- *********************************Form Section********************************************* -->
@@ -36,27 +37,18 @@
           <fieldset>
           <!-- Form Name -->
           <legend>Favorite Things</legend>
-          <!-- Button Drop Down -->
+          <!-- Select Basic -->
           <div class="form-group">
-            <label class="col-md-4 control-label" for="Category">Category</label>
+            <label class="col-md-4 control-label" for="selectbasic">Choose Category</label>
             <div class="col-md-4">
-              <div class="input-group">
-                <input id="Category" name="Category" class="form-control" placeholder="Any" type="text" required="">
-                <div class="input-group-btn">
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    Choose
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu pull-right">
-                    <li><a href="#">Any</a></li>
-                    <li><a href="#">Musical Acts</a></li>
-                    <li><a href="#">Sports Teams</a></li>
-                    <li><a href="#">Books</a></li>
-                    <li><a href="#">Movies</a></li>
-                    <li><a href="#">Websites</a></li>
-                  </ul>
-                </div>
-              </div>
+              <select id="selectbasic" name="selectbasic" class="form-control">
+                <option value="1">Any</option>
+                <option value="2">Musical Acts</option>
+                <option value="3">Sports Teams</option>
+                <option value="4">Books</option>
+                <option value="5">Movies</option>
+                <option value="6">Websites</option>
+              </select>
             </div>
           </div>
           <!-- First input-->
@@ -106,6 +98,5 @@
           </fieldset>
           </form>
       </div>
-<!-- **********************************Final Section****************************************** -->
   </body>
 </html>
