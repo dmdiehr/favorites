@@ -44,10 +44,15 @@ header img {
   font-size: 1.1em;
 }
 
-#made-list ul {
-  text-decoration: none;
-  padding-top: 20px;
-  font-style: 1.1em;
+#made-list {
+  display: none;
+  text-align: center;
+}
+
+#made-list li {
+  list-style-type: none;
+  padding-top: 5%;
+  font-size: 1.5em;
 }
 
 .left {

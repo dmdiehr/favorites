@@ -10,47 +10,48 @@
 
 $(document).ready(function() {
 
-// First Button Functionality
+  // First Button Functionality
 
-$("#first-button").click(function(){
-  $("#display-section").hide();
-  $("#form-section").show();
-}); // ends first-button function
+  $("#first-button").click(function(){
+    $("#display-section").hide();
+    $("#form-section").show();
+  }); // ends first-button function
 
-// Form Buttons Functionalities 
+  // Form Buttons Functionalities 
 
-$("#button2id").click(function(event){
-  $('#selectbasic').val('1');
-  $('#first-input').val('');
-  $('#second-input').val('');
-  $('#third-input').val('');
-  $('#fourth-input').val('');
-  $('#fifth-input').val('');
-  event.preventDefault();
-}); //ends clear form button function
+  $("#button1id").click(function(){
+    // var category = $("#selectbasic").val();
+    // var firstInputValue = $("input#first-input").val();
+    // var secondInputValue = $("input#second-input").val();
+    // var thirdInputValue = $("input#third-input").val();
+    // var fourthInputValue = $("input#fourth-input").val();
+    // var fifthInputValue = $("input#fifth-input").val();
 
+    $("#form-section").hide();
+    $("#display-section").show();
+    $("#first-list").hide();
+    $("#made-list").show();
+    event.preventDefault();
+  }); // ends submit button function
 
+  $("#button2id").click(function(event){
+    $('#selectbasic').val('1');
+    $('#first-input').val('');
+    $('#second-input').val('');
+    $('#third-input').val('');
+    $('#fourth-input').val('');
+    $('#fifth-input').val('');
+    event.preventDefault();
+  }); //ends clear form button function
 
-  // $("#button1id").click(function(event) {
-  //   var person1Input = $("input#person1").val();
-  //   var person2Input = $("input#person2").val();
-  //   var animalInput = $("input#animal").val();
-  //   var exclamationInput = $("input#exclamation").val();
-  //   var verbInput = $("input#verb").val();
-  //   var nounInput = $("input#noun").val();
-
-
-
-  //   $(".person1").text(person1Input);
-  //   $(".person2").text(person2Input);
-  //   $(".animal").text(animalInput);
-  //   $(".exclamation").text(exclamationInput);
-  //   $(".verb").text(verbInput);
-  //   $(".noun").text(nounInput);
-
-  //   $("#story").show();
-
-  //   event.preventDefault();
-
-  // }); // ends blanks form submit funciton
+  $("#last-button").click(function(event){
+    $('#selectbasic').val('1');
+    $('#first-input').val('');
+    $('#second-input').val('');
+    $('#third-input').val('');
+    $('#fourth-input').val('');
+    $('#fifth-input').val('');
+    $("#display-section").hide();
+    $("#form-section").show();
+  }); // ends 'make another' button function
 }); // ends document ready
