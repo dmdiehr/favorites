@@ -1,5 +1,13 @@
 html {
   box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: "Fontdiner Swanky", cursive;
+  background-image: url("../images/favorites.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #form-section {
@@ -7,20 +15,21 @@ html {
 }
 #display-section {
   max-width: 500px;
-  margin: auto;
+  border-radius: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  margin-bottom: auto;
+  padding-bottom: 6%;
+  background-color: white;
 }
-body {
-  background-image: url(images/music.jpg);
-}
+
 header img {
   display: block;
   margin: auto;
   max-width: 100%;
 }
 
-body {
-  font-family: "Fontdiner Swanky", cursive;
-}
 
 #first-list {
   display: block;
