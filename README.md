@@ -1,4 +1,4 @@
-#About Me Page
+#Favorites
 ###JQuery code review due 10/09/15
 
 #### By _**David Diehr**_
